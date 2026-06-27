@@ -1,15 +1,23 @@
 '''
-2. Use REPL and print the table of 5 using it
+2. Write a python program to find remainder when a number is divided by z.
 
 '''
-# steps for this question : 
 
-'''
-Step-01 : open the command pannel
+# we are creating an variables and storing an input function that takes the number from user 
+x = int(input("Enter your number: "))          # Enter  the number that breakes (divides) the number z
+z = int(input("Enter your number: "))          # Enter the number that gives the reminder 
 
-Step-02 : type python to open the REPL
+# now we are going to use the maths here
+reminder = z % x 
 
-Step-03 : print the table of 5
-'''
+# this prints gives the reminder here 
+print("the reminder of the z is: ", reminder)
 
-# -------------------------------------------x--------------------------------------------------
+# here we are importing an module named "Pyttsx3" that can speak 
+import pyttsx3
+
+# we have to feed what we have to speak 
+say = pyttsx3.speak(f"your reminder is {reminder}")
+print (say)         # output is an voice recoard 
+
+# -------------------------------------------------------------------x--------------------------------------------------------------------------------
