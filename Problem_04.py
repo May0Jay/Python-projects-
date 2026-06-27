@@ -1,19 +1,19 @@
 '''
-4. Use comparison operator to find out whether 'a' given variable is greater than 'b' or not.
-Take a = 34 and b = 80
+4. Replace the double space from problem 3 with single spaces.
 
 '''
-# Creating an variable to store the input given by user 
-a = int(input("Enter your number a: "))             # Enter your first number 
-b = int(input("Enter your number b: "))             # Enter your second number 
+# we are creating an variable which is containing an single space sting 
+a = "Hey mayank mohit  here"
 
-# we are creating an condition using if, else 
+# creating an variable and feeding an the condition of single_space using the find function
+single_space = a.find(" ")
 
-if a>b :
-    print("a is greater then b", a)             # if a is greater then b then this print give the output 
+# this print prints the index number for showig the location of single_space
+print("the single_space is found in index number: ", single_space)
 
-# the condition above is not true then the else gives the output 
-else :
-    print("b is greater then a", b)             # else this function prints the output
+# -------------------------------------------------------x-----------------------------------------------------------------------------------
 
-# -------------------------------------------------------------------------x------------------------------------------------------------------------
+
+
+
+

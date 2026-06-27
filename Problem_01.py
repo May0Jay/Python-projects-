@@ -1,9 +1,12 @@
 '''
-1. Write a python program to add two numbers
+1. Write a python program to display a user entered name followed by Good Afternoon using
+input() function.
 
 '''
-a = int(input("Enter your number: "))
-b = int(input("Enter your number: "))
+# Creating an variable that store the name entered by an user 
+name = input("Enter your name: ")
 
-add = a+b
-print("the submission of two number is : ", add)
+# printing an f"" string to get the perfect output
+print(f"Good afternoon, {name} sir")
+
+# ---------------------------------------------------------------------------------x-----------------------------------------------------------------------------

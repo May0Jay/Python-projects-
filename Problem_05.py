@@ -1,13 +1,11 @@
 '''
-5. Write a python program to find an average of two numbers entered by the us
-
+5. Write a program to format the following letter using escape sequence characters.
+letter = "Dear Harry, this python course is nice. Thanks!
 '''
-# We are creating two variables that store the numbers given by an user 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+# for formating this function we are using '\n' that creates an new line indentation 
+letter = "Dear Harry, \nthis python course is nice. \nThanks!"
 
-# using a little bit of maths we are creating an variable that calculate an averageos given number 
-avg = (a+b)/2
-print("The average of given numbers is: ", avg)     # output: The output is the average of both the given number 
+# now this function will prints the real format as letter
+print(letter)
 
-# -------------------------------------------------------------------x----------------------------------------------------------------------------------------
+# ------------------------------------------------------------x----------------------------------------------------------------------------
