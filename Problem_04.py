@@ -1,16 +1,19 @@
 '''
-4. Write a python program to print the contents of a directory using the os module. Search
-online for the function which does that
+4. Use comparison operator to find out whether 'a' given variable is greater than 'b' or not.
+Take a = 34 and b = 80
 
 '''
+# Creating an variable to store the input given by user 
+a = int(input("Enter your number a: "))             # Enter your first number 
+b = int(input("Enter your number b: "))             # Enter your second number 
 
-import os
+# we are creating an condition using if, else 
 
-path = "."  # Current directory
+if a>b :
+    print("a is greater then b", a)             # if a is greater then b then this print give the output 
 
-contents = os.listdir(path)
+# the condition above is not true then the else gives the output 
+else :
+    print("b is greater then a", b)             # else this function prints the output
 
-print("Contents of the directory:")
-for item in contents:
-    print(item)
-
+# -------------------------------------------------------------------------x------------------------------------------------------------------------
