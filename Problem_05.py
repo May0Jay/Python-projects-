@@ -1,13 +1,19 @@
 '''
-5. Write a python program to find an average of two numbers entered by the us
+5. Label the program written in problem 4 with comments.
 
 '''
-# We are creating two variables that store the numbers given by an user 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+# we are importing an module using import function 
+import os
 
-# using a little bit of maths we are creating an variable that calculate an averageos given number 
-avg = (a+b)/2
-print("The average of given numbers is: ", avg)     # output: The output is the average of both the given number 
+# creating an variable and stroing an path 
+path = "."  # Current directory
 
-# -------------------------------------------------------------------x----------------------------------------------------------------------------------------
+# now creating an another variable and storing am function on it 
+contents = os.listdir(path)
+
+# now we are taking an out put in it 
+print("Contents of the directory:")
+for item in contents:
+    print(item)
+
+# ----------------------------------------------------------x--------------------------------------------------------------------
